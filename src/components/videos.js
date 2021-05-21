@@ -1,8 +1,8 @@
 import React from "react";
 // import { Carousel } from 'react-bootstrap';
 import Slider from "react-slick";
-import '../scss/App.scss';
-import '../scss/font.scss';
+import '../scss/App.css';
+import '../scss/font.css';
 import divider from '../images/Line 61.png';
 import vedio1 from '../images/Rectangle 146.png'
 import vedio2 from '../images/Rectangle 147.png'
@@ -15,7 +15,7 @@ function Vedios() {
         <p className="sale_text">LATEST VIDEOS</p>
         <img className="divider" src={divider} alt="divider" />
         <div className="blogs_cart">
-       
+
         <div className="expert_slider">
             <div className="expert_image">
             <ReactPlayer
@@ -33,7 +33,7 @@ function Vedios() {
                 </div>
             </div>
         </div>
-        
+
         <div className="expert_slider">
             <div className="expert_image">
                 {/* <img className="expert_cart_image" src={vedio2} alt="cart image" /> */}
@@ -52,7 +52,7 @@ function Vedios() {
                 </div>
             </div>
         </div>
-       
+
         <div className="expert_slider">
             <div className="expert_image">
             <ReactPlayer
@@ -71,7 +71,7 @@ function Vedios() {
                 </div>
             </div>
         </div>
-       
+
 </div>
     </div>
   );

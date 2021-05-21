@@ -1,6 +1,6 @@
 import React from "react";
-import '../scss/App.scss';
-import '../scss/font.scss';
+import '../scss/App.css';
+import '../scss/font.css';
 import divider from '../images/Line 61.png';
 
 function Services() {
@@ -64,8 +64,8 @@ function Services() {
                     <p className="service_text">COUNSELLING</p>
                 </div>
             </div>
-       
-       
+
+
         </div>
     </div>
   );

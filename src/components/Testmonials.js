@@ -1,6 +1,6 @@
 import React from "react";
-import '../scss/App.scss';
-import '../scss/font.scss';
+import '../scss/App.css';
+import '../scss/font.css';
 import divider from '../images/Line 61.png';
 import client1 from '../images/client1.jpg';
 import client2 from '../images/client2.jpg';
@@ -31,7 +31,7 @@ function Testmonials() {
             <div className="testmonials2">
             <div className="client_name">
                     <img className="client1" src={client2} alt="client"/>
-                    <div className="client_div"> 
+                    <div className="client_div">
                     <p className="client1_name">Mahmood S. Khan</p>
                     <p className="client1_text">Chief Transformation Officer</p>
                     </div>

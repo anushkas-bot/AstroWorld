@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-import '../scss/App.scss';
-import '../scss/font.scss';
+import '../scss/App.css';
+import '../scss/font.css';
 import divider from '../images/Line 61.png';
 import blog1 from '../images/blog.jpeg'
 import blog2 from '../images/blog2.jpg'
@@ -26,7 +26,7 @@ Earthquakes...</p>
                     </div>
                 </div>
             </div>
-        
+
             <div className="expert_slider">
                 <div className="expert_image">
                     <img className="expert_cart_image" src={blog2} alt="cart image" />
@@ -38,7 +38,7 @@ Earthquakes...</p>
                     </div>
                 </div>
             </div>
-        
+
             <div className="expert_slider">
                 <div className="expert_image">
                     <img className="expert_cart_image" src={blog3} alt="cart image" />
@@ -53,7 +53,7 @@ Vande Mataram Friends! I did the prediction in Aditya Thackrey’s video...</p>
                     </div>
                 </div>
             </div>
-       
+
         </div>
     </div>
   );

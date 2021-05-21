@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-import '../scss/App.scss';
-import '../scss/font.scss';
+import '../scss/App.css';
+import '../scss/font.css';
 import divider from '../images/Line 61.png';
 import cart_image1 from '../images/Muhurata-for-Marriage-300x300.jpg'
 import cart_image2 from '../images/Compatibility-Analysis-300x300.jpg'
@@ -38,7 +38,7 @@ function Sale() {
               dots: false
             }
           }
-    
+
         ]
       };
   return (
@@ -59,7 +59,7 @@ function Sale() {
                     </div>
                 </div>
             </div>
-       
+
             <div className="sale_slider">
                 <div className="sale_image">
                     <img className="cart_image" src={cart_image2} alt="cart image" />
@@ -71,7 +71,7 @@ function Sale() {
                     </div>
                 </div>
             </div>
-    
+
             <div className="sale_slider">
                 <div className="sale_image">
                     <img className="cart_image" src={cart_image3} alt="cart image" />
@@ -83,7 +83,7 @@ function Sale() {
                     </div>
                 </div>
             </div>
-        
+
             <div className="sale_slider">
                 <div className="sale_image">
                     <img className="cart_image" src={cart_image4} alt="cart image" />
@@ -95,7 +95,7 @@ function Sale() {
                     </div>
                 </div>
             </div>
-       
+
             <div className="sale_slider">
                 <div className="sale_image">
                     <img className="cart_image" src={cart_image5} alt="cart image" />

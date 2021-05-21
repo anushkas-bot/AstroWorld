@@ -1,0 +1,50 @@
+.about {
+	 width: 85%;
+	 margin: 0 auto;
+	 text-align: justify;
+}
+ .header_image {
+	 background-image: url('../images/contact.jpg');
+	 height: 200px;
+	 width: 100%;
+	 background-size: 100% 200px;
+	 line-height: 200px;
+	 background-repeat: no-repeat;
+	 text-align: center;
+	 margin-bottom: 5%;
+}
+ .header_text {
+	 display: inline-block;
+	 vertical-align: middle;
+	 line-height: normal;
+	 font-family: Minion Pro;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 26px;
+	 color: #fff;
+	 text-transform: uppercase;
+}
+ .text123 {
+	 font-family: Minion Pro;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 24px;
+	 line-height: 29px;
+	 color: yellow;
+}
+ p {
+	 font-family: Montserrat;
+	 font-style: normal;
+	 font-weight: 300;
+	 font-size: 13px;
+	 line-height: 22px;
+	 color: #fff;
+}
+ h5 {
+	 font-family: Minion Pro;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 24px;
+	 line-height: 29px;
+	 color: #fff;
+}

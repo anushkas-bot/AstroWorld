@@ -1,6 +1,6 @@
 import React from "react";
-import '../scss/App.scss';
-import '../scss/font.scss';
+import '../scss/App.css';
+import '../scss/font.css';
 import collection_image from '../images/image 8.png'
 
 function Collection() {

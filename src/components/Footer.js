@@ -1,7 +1,7 @@
 import React from "react";
 import { Button} from 'react-bootstrap';
-import '../scss/App.scss';
-import '../scss/font.scss';
+import '../scss/App.css';
+import '../scss/font.css';
 import social1 from '../images/social1.png';
 import social2 from '../images/social2.png';
 import social3 from '../images/social3.png';
@@ -55,7 +55,7 @@ function Footer() {
              <p className="footer_para">Rudraksha Mala-Roseries</p>
              <p className="footer_para">Vastu Products</p>
              <p className="footer_para">Tantra Products</p>
-             <p className="footer_para">Shivaling Idols</p>    
+             <p className="footer_para">Shivaling Idols</p>
         <p className="footer_heading" id="heading">SOCIAL MEDIA</p>
         <div className="social_icon">
                  <img className="footer_social_icons" src={social1} alt="social icons" />
@@ -74,7 +74,7 @@ function Footer() {
        <Button variant="outline-light" className="button_text">SUBSCRIBE</Button>
         </div><br/>
     </div>
-    
+
   );
 }
 

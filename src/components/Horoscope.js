@@ -1,6 +1,6 @@
 import React from "react";
-import '../scss/App.scss';
-import '../scss/font.scss';
+import '../scss/App.css';
+import '../scss/font.css';
 import divider from '../images/Line 61.png';
 import Slider from "react-slick";
 import horoscope1 from '../images/Rectangle 125.png';
@@ -34,7 +34,7 @@ function Horoscope() {
               dots: false
             }
           }
-    
+
         ]
       };
   return (
@@ -47,7 +47,7 @@ function Horoscope() {
         <p className="text1">  Our expert’s prediction will help you to plan for near future & future.</p>
         <div className="horoscope_carousel">
           <Slider {...settings} className="slider">
-             
+
             <div className="horoscopeWrapper">
                 <img className="horoscope_image" src={horoscope1} alt="horoscope" />
                 <p className="horoscope_text" >Leo</p>
@@ -77,16 +77,16 @@ function Horoscope() {
                 <img className="horoscope_image"  src={horoscope4} alt="horoscope" />
                 <p  className="horoscope_text" >Libra</p>
             </div>
-            
+
             <div className="horoscopeWrapper">
                 <img className="horoscope_image"  src={horoscope5} alt="horoscope" />
                 <p  className="horoscope_text" >Aries</p>
             </div>
-           
+
           </Slider>
-          
+
         </div>
-   
+
     </div>
   );
 }

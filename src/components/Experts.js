@@ -1,6 +1,6 @@
 import React from "react";
-import '../scss/App.scss';
-import '../scss/font.scss';
+import '../scss/App.css';
+import '../scss/font.css';
 import divider from '../images/Line 61.png';
 import Slider from "react-slick";
 import expert1 from '../images/expert1.jpg';
@@ -36,7 +36,7 @@ function Experts() {
               dots: false
             }
           }
-    
+
         ]
       };
   return (
@@ -49,7 +49,7 @@ function Experts() {
         <p className="text1"> Bollywood Astrology, Vedic Astrology, Medical Astrology, Career Astrology, Palmistry or Gemology, it is <p className="text2">just a mail or call away.</p> </p>
         <div className="horoscope_carousel">
           <Slider {...settings} className="slider">
-             
+
             <div className="horoscopeWrapper">
                 <img className="horoscope_image" src={expert1} alt="horoscope" />
                 <p className="expert_name" >Vipin Kapoor</p>
@@ -115,7 +115,7 @@ function Experts() {
                     <img className="icons"  src={icon3} alt="messages" />
                 </div>
             </div>
-            
+
             <div className="horoscopeWrapper">
                 <img className="horoscope_image"  src={expert3} alt="horoscope" />
                 <p className="horoscope_text" >Satarupa Kapoor</p>
@@ -126,13 +126,14 @@ function Experts() {
                     <img className="icons"  src={icon3} alt="messages" />
                 </div>
             </div>
-           
+
           </Slider>
-          
+
         </div>
        <center> <button className="view_collection_text" style={{marginTop:'5%'}}> GET FREE CONSULTATION</button></center>
     </div>
-  );
+
+ );
 }
 
 export default Experts;

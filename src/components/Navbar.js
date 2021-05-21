@@ -1,32 +1,32 @@
 import React from "react";
-import '../scss/App.scss';
-import '../scss/font.scss';
+import '../scss/App.css';
+import '../scss/font.css';
 import search from '../images/Vector.png'
 import contact from '../images/Vector (1).png'
 import location from '../images/Vector (2).png'
-import logo from '../images/logo.png';
+import logo from '../images/logo1.png';
 
 
 function Navbar() {
   return (
     <div className="Navbar">
         <div className="logo">
-           <img className="logo" src={logo} alt="logo" />
+          <a href="/"> <img className="logo" src={logo} alt="logo" /></a>
         </div>
        <div className="menu">
-            <a className="menu_text" href="#home">AboutUs</a>
+            <a className="menu_text" href="/aboutus">AboutUs</a>
             <a className="menu_text" href="#services">Services</a>
-            <div className="products_menu">
+            {/* <div className="products_menu"> */}
              <a className="menu_text" href="#product">Products</a>
-             <div className="submenu">
+             {/* <div className="submenu">
               <p>Buy Gems Online</p>
               <p>Buy Rudraksha Online</p>
               <p>Vastu</p>
-              <p>Shivaling Idols</p>
-            </div>
-            </div>
+              <p>Shivaling Idols</p> */}
+            {/* </div>
+            </div> */}
             <a className="menu_text" href="#blog">Blogs</a>
-            <a className="menu_text" href="#contactus">ContactUs</a>
+            <a className="menu_text" href="/contact">ContactUs</a>
         </div>
         <div className="search">
             <a className="search_text" href=""><img src={search} alt="search" /></a>
